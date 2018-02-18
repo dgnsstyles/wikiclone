@@ -25,6 +25,10 @@
         <%= form.text_field :image_url, id: :article_image_url, class: 'small-6 columns', placeholder: 'url of the image' %>
       </div>
 
+          <%= form.collection_select :@category_id, Category.all, :id, :name, {prompt: 'Choose a Category'}, class: 'select' %>
+
+
+
       <div class="actions">
         <%= form.submit class: 'large button alert' %>
       </div>
