@@ -33,6 +33,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '4.4.1'
 gem 'activeadmin'
 gem 'foundation-rails', '6.4.1.3'
+gem 'paperclip', git: 'git://github.com/thoughtbot/paperclip.git'
+gem 'active_skin'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
