@@ -12,4 +12,13 @@
  *
  *= require_tree .
  *= require_self
+ *= require foundation
+ *= require foundation_and_overrides
  */
+
+.wrap{
+  max-width: 90% !important;
+
+}
+
+
